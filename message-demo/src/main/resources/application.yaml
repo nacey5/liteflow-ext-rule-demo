@@ -1,0 +1,15 @@
+liteflow.rule-source:
+  config/flow.el.xml
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/data
+    username: root
+    password: a1160124552
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml # ?? Mapper ?????? XML ????
+  configuration:
+    map-underscore-to-camel-case: true # ????????
+

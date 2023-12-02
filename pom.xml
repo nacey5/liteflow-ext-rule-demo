@@ -35,6 +35,7 @@
         <module>liteflow-etcd-demo</module>
         <module>liteflow-zookeeper-demo</module>
         <module>liteflow-redis-demo</module>
+        <module>message-demo</module>
     </modules>
 
 </project>
